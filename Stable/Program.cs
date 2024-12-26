@@ -10,7 +10,7 @@ using System.Text.Json;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
+//solve file problem
 builder.Services.AddControllers(options =>
 {
     options.OutputFormatters.RemoveType<SystemTextJsonOutputFormatter>();
